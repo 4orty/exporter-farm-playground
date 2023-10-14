@@ -9,9 +9,6 @@ image:
   tag: "v0.14.0"
   pullPolicy: "IfNotPresent"
 
-imagePullSecrets:
-- name: regcred
-
 service:
   labels: {}
   annotations: {}
